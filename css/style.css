@@ -1,0 +1,468 @@
+html,
+body {
+    overflow-x: hidden;
+}
+
+body {
+    position: relative
+}
+
+.border-why {
+    border-left: solid #f52 4px;
+}
+
+.border-we {
+    border-left: solid #000 4px;
+}
+
+.card-software {
+    overflow: hidden;
+    border-radius: 10px;
+}
+
+.learnmore {
+    background: linear-gradient(60deg, #e12, #f52);
+    border: none;
+}
+
+.para {
+    float: right;
+}
+
+.img {
+    width: 16%;
+}
+
+.nav-link:hover {
+    color: red;
+}
+
+.nav-item .nav-link {
+    color: #555;
+}
+
+.active .text-dark.nav-link {
+    color: #f52 !important;
+}
+
+.lightbg {
+    background-color: white;
+}
+
+.top-header .sml {
+    font-size: small;
+}
+
+.border-why {
+    border-left: solid #f52 4px;
+}
+
+.border-we {
+    border-left: solid #000 4px;
+}
+
+.card-software {
+    overflow: hidden;
+    border-radius: 10px;
+}
+
+.left-nav {
+    background: linear-gradient(#f72, #fa6);
+    border-radius: 0;
+    max-width: 250px;
+}
+
+.left-nav .text-white.active {
+    background-color: white !important;
+    color: black !important;
+    border-radius: 100px 0 0 100px;
+    box-shadow: -2px 1px 5px #0007;
+}
+
+.navbar-header a.text-dark:focus,
+.navbar-header a.text-dark:hover {
+    color: red !important;
+    box-shadow: 0px 0px 5px;
+}
+
+.bg-orange {
+    background-color: #f52;
+}
+
+.color-orange {
+    color: orangered;
+    border-color: orangered !important;
+}
+
+.core-values .collapse-h {
+    background-color: #f52;
+    color: #fff;
+}
+
+.core-values .collapsed {
+    background-color: #ccc;
+    color: #555;
+}
+
+.banner-dot {
+    width: 14px;
+    height: 14px;
+    background: #ccc;
+    border-radius: 50%;
+}
+
+.img1 {
+    position: absolute;
+    display: flex;
+}
+
+.img2 {
+    left: 90px;
+    top: 30px;
+    display: flex;
+    position: absolute;
+    padding-top: 40px;
+    padding-bottom: 20px;
+    padding-left: 30px;
+}
+
+.carousel-control.left {
+    background-image: none;
+}
+
+.carousel-control.right {
+    background-image: none;
+}
+
+.glyphicon.glyphicon-chevron-left {
+    background-color: white;
+    color: black;
+    padding: 10px;
+    border-radius: 50%;
+    box-shadow: 5px 5px 5px;
+    height: 50px;
+    width: 50px;
+}
+
+.glyphicon.glyphicon-chevron-right {
+    background-color: white;
+    color: black;
+    padding: 10px;
+    border-radius: 50%;
+    box-shadow: 5px 5px 5px;
+    height: 50px;
+    width: 50px;
+}
+
+.border-h {
+    height: 100px;
+}
+
+.web-box {
+    background: #fcf2f9;
+    height: 220px;
+}
+
+.web-box-img {
+    height: 110px;
+    background: #fd6;
+}
+
+.web-box-img img {
+    margin-left: -5px;
+}
+
+.social-media {
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    border: 2px solid #000;
+}
+
+.border-i {
+    height: 90px;
+}
+
+.border-ht {
+    height: 40px;
+}
+
+.portfolioline {
+    width: 280px;
+    height: 6px;
+    background: white;
+    border-radius: 5px;
+}
+
+.portbanner {
+    height: 400px;
+}
+
+.portbutton {
+    border-radius: 30px;
+    width: 200px;
+}
+
+.about .portbutton.active {
+    background: linear-gradient(60deg, #f96, #f52);
+}
+
+.portlorem .image-0001 {
+    margin: -45px -80px -60px -100px;
+}
+
+.portlorem .image-0002 {
+    margin: 0 -80px -70px -100px;
+}
+
+.portlorem .image-0003 {
+    margin: -45px -80px -60px -100px;
+}
+
+.portlorem .image-0004 {
+    margin-left: -100px;
+    margin-bottom: -60px;
+    margin-right: -80px;
+}
+
+.about-besttxt {
+    height: 135px;
+}
+
+.abt-innertxt {
+    height: 66px;
+}
+
+
+/* home-banner */
+
+.home-banner .slide-item {
+    background-image: url(../img/main-banner.png);
+    background-size: cover;
+}
+
+.home-banner .slide-item .caption01 {
+    font-size: 22px;
+    margin-top: 45px;
+}
+
+.home-banner .slide-item .caption02 {
+    font-size: 70px;
+    font-weight: bold;
+}
+
+.get-in-touch {
+    background: linear-gradient(60deg, #e12, #f52);
+    border: none;
+}
+
+.home-banner .owl-dots {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: -70px !important;
+}
+
+.home-banner .owl-stage-outer {
+    z-index: -1;
+}
+
+.portfolio-sec .border-danger {
+    border: solid 3px #f96 !important;
+}
+
+.portfolio-sec .img-side .mobile-app {
+    width: 220px;
+}
+
+.portfolio-sec .img-side .web-dev {
+    width: 520px;
+}
+
+.portfolio-sec .img-side .digi-market {
+    width: 800px;
+}
+
+#testimonialSlide .owl-prev span {
+    position: absolute;
+    top: 40%;
+    line-height: 27px;
+    background: #fff;
+    color: #555;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    font-size: 80px;
+    box-shadow: 2px 2px 5px;
+    left: 0;
+}
+
+#testimonialSlide .owl-next span {
+    position: absolute;
+    top: 40%;
+    line-height: 27px;
+    background: #fff;
+    color: #555;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    font-size: 80px;
+    box-shadow: 2px 2px 5px;
+    right: 0;
+}
+
+.portfolio-portfolioApps {
+    height: 270px;
+    margin-right: -15px;
+    margin-left: -15px;
+}
+
+.portfolio-portfolioApps img.position-absolute {
+    z-index: 2;
+    width: 140px;
+    left: 35px;
+    margin-top: -277px;
+}
+
+.portfolio-webdev {
+    height: 280px;
+    margin-right: -15px;
+    margin-left: -15px;
+}
+
+.portfolio-webdev .webdev-screen {
+    padding-left: 50px;
+    width: 380px !important;
+}
+
+.portfolio-webdev img.position-absolute {
+    z-index: 2;
+    width: 400px;
+    right: 40px;
+    margin-top: -276px;
+}
+
+.recent-projects-webdev img.position-absolute {
+    z-index: 2;
+    width: 380px;
+    right: 50px;
+    margin-top: -280px;
+}
+
+.portfolio-soft-dev {
+    height: 280px;
+    margin-right: -15px;
+    margin-left: -15px;
+}
+
+.portfolio-soft-dev img.position-absolute {
+    z-index: 2;
+    width: 340px;
+    left: 20px;
+    margin-top: -260px;
+}
+
+.portfolio-soft-dev .soft-dev-screen {
+    padding-left: 50px;
+    width: 327px !important;
+}
+
+.contact-body {
+    height: 600px;
+}
+
+@media only screen and (max-width: 600px) {
+    .home-banner .slide-item .caption01 {
+        margin-top: 25px;
+    }
+    .home-banner .slide-item .caption02 {
+        font-size: 30px;
+    }
+    .home-banner .slide-item .get-in-touch {
+        margin-bottom: 100px;
+    }
+    .portfolio-sec .img-side .web-dev {
+        width: 420px;
+    }
+    .portfolio-sec .img-side .digi-market {
+        width: 500px;
+    }
+    .img1 {
+        display: none;
+    }
+    .img2 {
+        display: none;
+    }
+    .top-header .col {
+        width: 100%
+    }
+    .navbar .nav-item {
+        display: block;
+    }
+    .web-box {
+        height: 260px;
+    }
+    .portlorem .image-0001 {
+        margin: 0;
+    }
+    .portlorem .image-0002 {
+        margin: 0;
+    }
+    .portlorem .image-0003 {
+        margin: 0;
+    }
+    .portlorem .image-0004 {
+        margin: 0;
+    }
+    .portfolio-portfolioApps {
+        height: 650px;
+        margin-right: -15px;
+        margin-left: -15px;
+    }
+    .portfolio-portfolioApps img.position-absolute {
+        width: 141px;
+        left: 34px;
+        margin-top: -636px;
+    }
+    .recent-projects-webdev img.position-absolute {
+        width: 250px;
+        right: 43px;
+        margin-top: -120px;
+    }
+    .portfolio-webdev {
+        height: 660px;
+        margin-right: -15px;
+        margin-left: -15px;
+    }
+    .portfolio-webdev .webdev-screen {
+        padding-left: 20px;
+        width: 335px !important;
+    }
+    .portfolio-webdev img.position-absolute {
+        width: 380px;
+        right: 0;
+        margin-top: -207px;
+    }
+    .portfolio-soft-dev {
+        height: 600px;
+        margin-right: -15px;
+        margin-left: -15px;
+    }
+    .portfolio-soft-dev img.position-absolute {
+        width: 350px;
+        left: 10px;
+        margin-top: -510px;
+    }
+    .portfolio-soft-dev .soft-dev-screen {
+        padding-left: 40px;
+        width: 335px !important;
+    }
+    .recent-projects-webdev img.position-absolute {
+        width: 250px;
+        right: 43px;
+        margin-top: -120px;
+    }
+    .contact-body {
+        height: auto;
+    }
+}
